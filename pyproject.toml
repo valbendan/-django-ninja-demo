@@ -4,11 +4,6 @@ version = "0.1.0"
 description = ""
 authors = ["valbendan <valbendan@hotmail.com>"]
 
-[[tool.poetry.source]]
-name = "aliyun"
-url = "https://mirrors.aliyun.com/pypi/simple"
-default = false
-
 [tool.poetry.dependencies]
 python = "^3.9"
 
