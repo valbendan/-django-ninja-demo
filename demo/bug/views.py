@@ -4,7 +4,7 @@ from ninja import NinjaAPI
 # Create your views here.
 
 
-api = NinjaAPI(urls_namespace="api:demo")
+api = NinjaAPI(urls_namespace="api:api")
 
 
 @api.get("hello")
@@ -14,7 +14,7 @@ def hello(request):
 
 urls = (
     [
-        path("api/", api.urls, name="demo")
+        path("api/", api.urls, name="api")
     ],
-    "demo"
+    "api"
 )
